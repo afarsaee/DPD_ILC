@@ -1,6 +1,7 @@
 # DPD_ILC
-Implementation of "Iterative Learning Control for RF Power Amplifier Linearization"
+Implementation of "Iterative Learning Control for RF Power Amplifier Linearization", both in MATLAB and Python
 
+For MATLAB file: 
 This code is the implementation of a simplified ILC algorithm. There are two parts:
 1- Model the PA by the function "Find_out_PA(in_PA)":
 y = \alpha_0 + \alpha_1 x + \alpha_2 x |x|^2 + \alpha_3 x |x|^4 + \alpha_4 x |x|^6
